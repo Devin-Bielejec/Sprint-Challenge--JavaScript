@@ -49,10 +49,8 @@ console.log(dinoS.length);
 // What time period did tyrannosaurus live in?
 console.log(dinoT.period);
 
-
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
 console.log(dinoT.roar());
-
 
 // ==== Arrays ====
 
@@ -85,7 +83,11 @@ const contactInfo = graduates.map( item => `${item["first_name"]} ${item["email"
 console.log(contactInfo);
 
 
-/* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
+/* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. 
+
+Unclear, but my array contains all the unversity names. Deleting the .map on the end would give you the objects.
+
+*/
 const uni = graduates.filter( item => item["university"].includes("Uni") ? item["university"] : false).map( item => item["university"]);
 console.log(uni);
 
