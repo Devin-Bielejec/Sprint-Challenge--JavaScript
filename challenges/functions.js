@@ -41,7 +41,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explanation: 
 
-//Nested Function can access everything outside of it going upwards. Closures allow functions inside to access outside, but not outside function to access inside.
+//Nested Function can access everything outside of it going upwards/outter. Closures allow functions inside to access outside, but not outside function to access inside.
 
 const external = "I'm outside the function";
 
