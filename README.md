@@ -39,7 +39,7 @@ A method is a function inside an object, but a function doesn't have to be insid
 
 3. What is closure?
 
-Closure allows you to use differnt parts of functions inside and outside scopes. 
+Closures allow functions inside to access outside functions/variables, but not outside functions to access inside variables/functions.
 *******************Not good, fix**************
 
 4. Describe the four rules of the 'this' keyword.
