@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-'.forEach' doesn't return anything, it changes the orginal array.
+'.forEach' doesn't return anything, it allows you to push items onto a new array.
 '.map' returns a new array that is changed.
 
 2. What is the difference between a function and a method?
@@ -39,19 +39,17 @@ A method is a function inside an object, but a function doesn't have to be insid
 
 3. What is closure?
 
-Closures allow functions inside to access outside functions/variables, but not outside functions to access inside variables/functions.
-*******************Not good, fix**************
+Closures allow functions inside to access outside functions/variables, but outside functions cannot access inside variables/functions.
 
 4. Describe the four rules of the 'this' keyword.
 
-* 1. Window Binding - Using "this" helps refer people to the window, which is the environment where "this" belongs to initially. If "this" is not inside of anything, "this" is the window [think globally] - "this" binds to the global, which in the case of a window is the window.
+Window Binding - Using "this" helps refer people to the window, which is the environment where "this" belongs to initially. If "this" is not inside of anything, "this" is the window [think globally] - "this" binds to the global, which in the case of a window is the window.
 
-* 2. Implicit Binding - When "this" is used within an object "this" refers to the object name and properties. Look to the left of the dot when the function is invoked to see what "this" is referring to.
+Implicit Binding - When "this" is used within an object "this" refers to the object name and properties. Look to the left of the dot when the function is invoked to see what "this" is referring to.
 
-* 3. New Binding - By using the keyword "new" we can create an new instance of an object but with potentially different arguments, thus creating visually new properties. It will appear that "this" has changed.
+New Binding - By using the keyword "new" we can create an new instance of an object but with potentially different arguments, thus creating visually new properties. It will appear that "this" has changed.
 
-* 4. Explicit Binding - When you use apply or call to switch where "this" belongs. On every function there is an option to use call/apply, which allows us to take data from an obj and then within our function we can refer to that data by using this
-
+Explicit Binding - When you use apply or call to switch where "this" belongs. On every function there is an option to use call/apply, which allows us to take data from an obj and then within our function we can refer to that data by using this
 
 5. Why do we need super() in an extended class?
 
@@ -97,7 +95,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [X] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
